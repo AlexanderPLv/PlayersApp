@@ -33,17 +33,17 @@ extension MainCoordinator: Coordinator {
 private extension MainCoordinator {
     func performFlow() {
         let view = factory.buildListScreen()
-//        view.onDetailScreen = { [weak self] order in
-//            self?.runDetailScreen(order: order)
-//        }
+        view.onDetailScreen = { [weak self, unowned view] player in
+            self?.runDetailScreen(player: player, view)
+        }
         router.setRootModule(view, hideBar: true)
     }
     
-//    func runDetailScreen(order: OrderInfo) {
-//        let view = factory.buildDetailsScreen(order: order)
-//        view.close = pop
-//        router.push(view, animated: true)
-//    }
+    func runDetailScreen(player: Player, _ delegate: PlayerDetailDelegate) {
+        let view = factory.buildDetailsScreen(player: player, delegate)
+        view.close = pop
+        router.push(view, animated: true)
+    }
     
     func pop() {
         router.popModule()

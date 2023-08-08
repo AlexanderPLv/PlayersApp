@@ -88,7 +88,7 @@ extension Router: Routable {
     func setRootModule(_ module: Presentable?, hideBar: Bool) {
         guard let controller = module?.toPresent else { return }
         rootController?.setViewControllers([controller], animated: false)
-        rootController?.isNavigationBarHidden = hideBar
+        rootController?.navigationBar.prefersLargeTitles = true
         rootController?.modalPresentationStyle = .fullScreen
     }
 

@@ -22,13 +22,18 @@
 		C931549A2A8223C900855914 /* PlayersListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154992A8223C900855914 /* PlayersListScreen.swift */; };
 		C931549E2A82249E00855914 /* PlayersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931549D2A82249E00855914 /* PlayersListViewModel.swift */; };
 		C93154A12A82261100855914 /* ModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154A02A82261100855914 /* ModulesFactory.swift */; };
-		C93154A42A8228D400855914 /* PlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154A32A8228D400855914 /* PlayerInfo.swift */; };
+		C93154A42A8228D400855914 /* PlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154A32A8228D400855914 /* PlayerStats.swift */; };
 		C93154A72A82295000855914 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154A62A82295000855914 /* Player.swift */; };
 		C93154AD2A822C3900855914 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154AC2A822C3900855914 /* MockNetworkService.swift */; };
 		C93154B02A822C7B00855914 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154AF2A822C7B00855914 /* DataProvider.swift */; };
 		C93154B22A822D0A00855914 /* players.json in Resources */ = {isa = PBXBuildFile; fileRef = C93154B12A822D0A00855914 /* players.json */; };
 		C93154B52A822FC500855914 /* PlayerDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154B42A822FC500855914 /* PlayerDetailScreen.swift */; };
 		C93154B72A82303A00855914 /* PlayerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154B62A82303A00855914 /* PlayerDetailViewModel.swift */; };
+		C93154BA2A8232D700855914 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C93154B92A8232D700855914 /* Algorithms */; };
+		C93154BD2A8236F900855914 /* PersonalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154BC2A8236F900855914 /* PersonalInfo.swift */; };
+		C93154C12A82418800855914 /* PlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93154C02A82418800855914 /* PlayerListCell.swift */; };
+		C93A03602A82514A00E3D927 /* PlayerListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93A035F2A82514A00E3D927 /* PlayerListHeader.swift */; };
+		C93A03622A8256E100E3D927 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93A03612A8256E100E3D927 /* LabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,13 +54,17 @@
 		C93154992A8223C900855914 /* PlayersListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListScreen.swift; sourceTree = "<group>"; };
 		C931549D2A82249E00855914 /* PlayersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListViewModel.swift; sourceTree = "<group>"; };
 		C93154A02A82261100855914 /* ModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactory.swift; sourceTree = "<group>"; };
-		C93154A32A8228D400855914 /* PlayerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfo.swift; sourceTree = "<group>"; };
+		C93154A32A8228D400855914 /* PlayerStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStats.swift; sourceTree = "<group>"; };
 		C93154A62A82295000855914 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		C93154AC2A822C3900855914 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 		C93154AF2A822C7B00855914 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		C93154B12A822D0A00855914 /* players.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = players.json; sourceTree = "<group>"; };
 		C93154B42A822FC500855914 /* PlayerDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailScreen.swift; sourceTree = "<group>"; };
 		C93154B62A82303A00855914 /* PlayerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewModel.swift; sourceTree = "<group>"; };
+		C93154BC2A8236F900855914 /* PersonalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfo.swift; sourceTree = "<group>"; };
+		C93154C02A82418800855914 /* PlayerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListCell.swift; sourceTree = "<group>"; };
+		C93A035F2A82514A00E3D927 /* PlayerListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListHeader.swift; sourceTree = "<group>"; };
+		C93A03612A8256E100E3D927 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93154BA2A8232D700855914 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +147,9 @@
 		C931547A2A82217D00855914 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				C93154BB2A8236E400855914 /* PersonalInfo */,
 				C93154A52A82294800855914 /* Player */,
-				C93154A22A8228C500855914 /* PlayerInfo */,
+				C93154A22A8228C500855914 /* PlayerStats */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -244,6 +255,7 @@
 		C931549B2A82243600855914 /* PlayersListScreen */ = {
 			isa = PBXGroup;
 			children = (
+				C93154BE2A82415500855914 /* views */,
 				C93154992A8223C900855914 /* PlayersListScreen.swift */,
 				C931549D2A82249E00855914 /* PlayersListViewModel.swift */,
 			);
@@ -266,12 +278,12 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		C93154A22A8228C500855914 /* PlayerInfo */ = {
+		C93154A22A8228C500855914 /* PlayerStats */ = {
 			isa = PBXGroup;
 			children = (
-				C93154A32A8228D400855914 /* PlayerInfo.swift */,
+				C93154A32A8228D400855914 /* PlayerStats.swift */,
 			);
-			path = PlayerInfo;
+			path = PlayerStats;
 			sourceTree = "<group>";
 		};
 		C93154A52A82294800855914 /* Player */ = {
@@ -307,6 +319,24 @@
 			path = PlayerDetailScreen;
 			sourceTree = "<group>";
 		};
+		C93154BB2A8236E400855914 /* PersonalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C93154BC2A8236F900855914 /* PersonalInfo.swift */,
+			);
+			path = PersonalInfo;
+			sourceTree = "<group>";
+		};
+		C93154BE2A82415500855914 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C93154C02A82418800855914 /* PlayerListCell.swift */,
+				C93A035F2A82514A00E3D927 /* PlayerListHeader.swift */,
+				C93A03612A8256E100E3D927 /* LabelView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,6 +353,9 @@
 			dependencies = (
 			);
 			name = PlayersApp;
+			packageProductDependencies = (
+				C93154B92A8232D700855914 /* Algorithms */,
+			);
 			productName = PlayersApp;
 			productReference = C931545F2A8220EB00855914 /* PlayersApp.app */;
 			productType = "com.apple.product-type.application";
@@ -351,6 +384,9 @@
 				Base,
 			);
 			mainGroup = C93154562A8220EB00855914;
+			packageReferences = (
+				C93154B82A8232D700855914 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = C93154602A8220EB00855914 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -385,18 +421,22 @@
 				C93154932A8222A700855914 /* BaseCoordinator.swift in Sources */,
 				C93154952A8222A700855914 /* CoordinatorFactory.swift in Sources */,
 				C93154632A8220EB00855914 /* AppDelegate.swift in Sources */,
-				C93154A42A8228D400855914 /* PlayerInfo.swift in Sources */,
+				C93154A42A8228D400855914 /* PlayerStats.swift in Sources */,
 				C931549A2A8223C900855914 /* PlayersListScreen.swift in Sources */,
 				C93154A12A82261100855914 /* ModulesFactory.swift in Sources */,
 				C93154982A8222A700855914 /* Coordinator.swift in Sources */,
 				C93154652A8220EB00855914 /* SceneDelegate.swift in Sources */,
+				C93154C12A82418800855914 /* PlayerListCell.swift in Sources */,
 				C93154AD2A822C3900855914 /* MockNetworkService.swift in Sources */,
+				C93A03622A8256E100E3D927 /* LabelView.swift in Sources */,
+				C93154BD2A8236F900855914 /* PersonalInfo.swift in Sources */,
 				C931549E2A82249E00855914 /* PlayersListViewModel.swift in Sources */,
 				C93154B02A822C7B00855914 /* DataProvider.swift in Sources */,
 				C93154972A8222A700855914 /* Presentable.swift in Sources */,
 				C93154B72A82303A00855914 /* PlayerDetailViewModel.swift in Sources */,
 				C93154A72A82295000855914 /* Player.swift in Sources */,
 				C93154962A8222A700855914 /* Routable.swift in Sources */,
+				C93A03602A82514A00E3D927 /* PlayerListHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,7 +580,8 @@
 				INFOPLIST_FILE = PlayersApp/Enviroments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -570,7 +611,8 @@
 				INFOPLIST_FILE = PlayersApp/Enviroments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,6 +652,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C93154B82A8232D700855914 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C93154B92A8232D700855914 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C93154B82A8232D700855914 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C93154572A8220EB00855914 /* Project object */;
 }

@@ -9,7 +9,7 @@ import Foundation
 
 protocol MainBuilderProtocol {
     func buildListScreen() -> PlayersListScreen
-    func buildDetailsScreen() -> PlayerDetailScreen
+    func buildDetailsScreen(player: Player, _ delegate: PlayerDetailDelegate) -> PlayerDetailScreen
 }
 
 final class ModulesFactory {
@@ -31,8 +31,10 @@ extension ModulesFactory: MainBuilderProtocol {
         return screen
     }
     
-    func buildDetailsScreen() -> PlayerDetailScreen {
-        let screen = PlayerDetailScreen()
+    func buildDetailsScreen(player: Player, _ delegate: PlayerDetailDelegate) -> PlayerDetailScreen {
+        let viewModel = PlayerDetailViewModelImpl(player: player)
+        viewModel.delegate = delegate
+        let screen = PlayerDetailScreen(viewModel: viewModel)
         return screen
     }
 }

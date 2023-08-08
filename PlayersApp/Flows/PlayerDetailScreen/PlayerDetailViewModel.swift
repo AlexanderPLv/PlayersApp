@@ -8,9 +8,25 @@
 import Foundation
 
 protocol PlayerDetailViewModel {
-    
+    var player: Player { get }
+    func removePlayer()
 }
 
-final class PlayerDetailViewModelImpl {
+protocol PlayerDetailDelegate: AnyObject {
+    func removePlayer(_ player: Player)
+}
+
+final class PlayerDetailViewModelImpl: PlayerDetailViewModel {
     
+    let player: Player
+    
+    init(player: Player) {
+        self.player = player
+    }
+    
+    weak var delegate: PlayerDetailDelegate?
+    
+    func removePlayer() {
+        delegate?.removePlayer(player)
+    }
 }
